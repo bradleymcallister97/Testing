@@ -8,6 +8,7 @@ pipeline {
                 // Get some code from a GitHub repository
                 git 'https://github.com/bradleymcallister97/Testing.git'
 
+
                 sh "printenv"
                 // sh 'git diff "$GIT_PREVIOUS_COMMIT" "$GIT_COMMIT"'
                 // if [ "$GITHUB_BASE_REF" ]; then
