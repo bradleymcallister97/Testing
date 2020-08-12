@@ -8,6 +8,7 @@ pipeline {
                 // Get some code from a GitHub repository
                 git 'https://github.com/bradleymcallister97/Testing.git'
 
+
                 sh "printenv"
                 // sh 'git diff "$GIT_PREVIOUS_COMMIT" "$GIT_COMMIT"'
                 // if [ "$GITHUB_BASE_REF" ]; then
@@ -24,7 +25,7 @@ pipeline {
                 //         git diff "$EVENT_BEFORE" "$GITHUB_SHA" > $diff_filename;
                 //     fi;
                 // fi;
-                
+
                 
                 echo "Done"
             }
