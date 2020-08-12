@@ -10,7 +10,6 @@ pipeline {
 
                 sh "printenv"
 
-
                 // sh 'git diff "$GIT_PREVIOUS_COMMIT" "$GIT_COMMIT"'
                 // if [ "$GITHUB_BASE_REF" ]; then
                 //     git fetch origin "$GITHUB_BASE_REF" --depth=1;
