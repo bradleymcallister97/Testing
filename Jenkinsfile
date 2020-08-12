@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'nightfallai/nightfall_dlp:1088f8f8e7fbab98aaa8b2929b69b700f16044b7' }
+        docker { image 'bradmcallister97/jenkins_test:0.0.1' }
     }
     stages {
         stage('Build') {
