@@ -24,7 +24,6 @@ pipeline {
                 //         git diff "$EVENT_BEFORE" "$GITHUB_SHA" > $diff_filename;
                 //     fi;
                 // fi;
-
                 
                 echo "Done"
             }
